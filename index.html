@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school grade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+   <center>
+    <form>
+        <table class="main-table">
+            <h2 style="color: white; font-size: 36px;">Marksheet</h2>
+            <tr class="sub-tble">
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr class="sub-tble">
+                <td>
+                    <label for="std">Standard:</label>
+                </td>
+                <td class="i1">
+                    <input type="text" id="std">
+                </td>
+            </tr>
+            <tr class="sub-tble">
+                <td><label for="ss">Social science :</label></td>
+                <td><input type="number" id="ss"></td>
+            </tr>
+            <tr class="sub-tble">
+                <td><label for="en">English:</label></td>
+                <td class="i1"><input type="number" id="eng"></td>
+            </tr>
+            <tr class="sub-tble">
+                <td><label for="guj">Gujarati:</label></td>
+                <td class="i1"><input type="number" id="guj"></td>
+            </tr>
+            <tr class="sub-tble">
+                <td><label for="math">Mathematics:</label></td>
+                <td class="i1"><input type="number" id="math"></td>
+            </tr>
+            <tr class="sub-tble">
+                <td><label for="sci">Science :</label></td>
+                <td class="i1"><input type="number" id="sci"></td>
+            </tr>
+            <tr class="sub-tble">
+                <td colspan="2"><button type="button" onclick="graderes()" class="btn-one">Calculate Grade</button></td>
+            </tr>
+        </table>
+        <div id="dis"></div>
+    </form>
+    
+   </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
