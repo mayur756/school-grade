@@ -39,7 +39,7 @@ function graderes(){
     table += "</table>";
 
     
-    document.getElementById("dis").innerHTML = table;
+    document.getElementById("display").innerHTML = table;
 }
 
 function salary(){
