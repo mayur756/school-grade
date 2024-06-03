@@ -8,7 +8,7 @@ function graderes(){
     let sub_5 = parseFloat(document.getElementById('sci').value);
 
     let totalmarks = sub_1 + sub_2 + sub_3 + sub_4 + sub_5;
-    let percentage = (totalmarks / 500)*100;
+    let percentage = (totalmarks / 400)*100;
 
     let grade;
     if(percentage >= 90) {
