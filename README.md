@@ -1,6 +1,6 @@
 🧮✨student grade ✨🧮
 
-Hello LinkedIn Community! 👋 I'm thrilled to share my latest project developed with java script! 🚀 Presenting the Note Keeper App.
+Hello LinkedIn Community! 👋 I'm thrilled to share my latest project developed with java script! 🚀 Presenting the student grade.
 
 🌟 Key Features:
 
